@@ -10,7 +10,7 @@ def home():
             "title": "🌤 Weather App",
             "description": "A GUI desktop app built with Python and Tkinter that fetches real-time weather data using the OpenWeatherMap API. Features a dark theme UI with city search and Sri Lankan cities dropdown.",
             "tech": ["Python", "Tkinter", "REST API", "python-dotenv"],
-            "github": "https://github.com/sudheera-hash/weather-app"
+            "github": "https://github.com/sudheera-hash/SriLankaWeatherApp"
         },
         {
             "title": "📚 Book Web Scraper",
