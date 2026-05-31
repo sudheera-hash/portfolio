@@ -20,7 +20,7 @@ def home():
     },
     {
         "title": "📚 BookStore — E-Commerce Web Application",
-        "description": "A full-stack e-commerce bookstore built with Flask and SQLite featuring pure SQL queries, user authentication, shopping cart, wishlist, and admin inventory management. Demonstrates CRUD operations, database design, and role-based access control.",
+        "description": "A full-stack e-commerce bookstore built with Flask and SQLite featuring raw SQL queries (no ORM), user authentication, shopping cart, wishlist, and admin inventory management. Demonstrates CRUD operations, database design, and role-based access control.",
         "tech": ["Python", "Flask", "SQLite", "SQL", "HTML", "CSS", "Flask-Login"],
         "features": [
             "User authentication (register/login)",
@@ -31,16 +31,17 @@ def home():
             "Order tracking (pending/shipped status)"
         ],
         "github": "https://github.com/sudheera-hash/bookstore",
-        "live": "https://bookstore-production-569e.up.railway.app"
+        "live": "https://bookstore-production-cc23.up.railway.app"
     }
 ]
     skills = [
         {"name": "Python", "icon": "🐍"},
         {"name": "HTML & CSS", "icon": "🌐"},
+        {"name": "SQL", "icon": "🗄️"},
         {"name": "Git & GitHub", "icon": "🔧"},
+        {"name": "Flask", "icon": "⚡"},
         {"name": "Machine Learning", "icon": "🤖"},
         {"name": "Data Science", "icon": "📊"},
-        {"name": "Flask", "icon": "⚡"},
     ]
 
     return render_template("index.html", projects=projects, skills=skills)
