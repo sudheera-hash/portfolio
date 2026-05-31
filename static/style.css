@@ -266,17 +266,44 @@ nav {
     border: 1px solid #89b4fa;
 }
 
+.project-links {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+    flex-wrap: wrap;
+}
+
 .btn-github {
     color: #89b4fa;
     text-decoration: none;
     font-size: 13px;
     font-weight: 600;
-    margin-top: auto;
-    transition: color 0.3s;
+    transition: all 0.3s;
+    padding: 8px 16px;
+    border: 1px solid #89b4fa;
+    border-radius: 6px;
 }
 
 .btn-github:hover {
-    color: #cdd6f4;
+    color: #1e1e2e;
+    background-color: #89b4fa;
+}
+
+.btn-live {
+    color: #1e1e2e;
+    background-color: #89b4fa;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    transition: background 0.3s;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: 1px solid #89b4fa;
+}
+
+.btn-live:hover {
+    background-color: #74a8f7;
+    border-color: #74a8f7;
 }
 
 /* ─── CONTACT ────────────────────────────────────────────── */
